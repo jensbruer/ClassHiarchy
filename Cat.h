@@ -12,6 +12,7 @@ public:
 	virtual bool hasFur() { return true; }
 	bool hasTail() { return true; }
 	std::string makenoise() { return "Meow"; }
+	std::string spieces() { return "Cat"; }
 };
 
 #endif

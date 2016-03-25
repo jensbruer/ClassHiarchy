@@ -9,6 +9,7 @@ public:
 	virtual bool hasFur() = 0;
 	virtual bool hasTail() = 0;
 	virtual std::string makenoise() = 0;
+	virtual std::string spieces() = 0;
 };
 
 #endif

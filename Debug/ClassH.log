@@ -1,3 +1,4 @@
 ﻿  Source.cpp
+c:\users\jens\documents\visual studio 2015\projects\classhiarchy\classh\classh\source.cpp(12): warning C4101: 'w': unreferenced local variable
   ClassH.vcxproj -> C:\Users\Jens\Documents\Visual Studio 2015\Projects\ClassHiarchy\ClassH\Debug\ClassH.exe
   ClassH.vcxproj -> C:\Users\Jens\Documents\Visual Studio 2015\Projects\ClassHiarchy\ClassH\Debug\ClassH.pdb (Partial PDB)

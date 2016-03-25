@@ -5,11 +5,12 @@
 #include "Human.h"
 
 class Person : 
-	Human
+	public Human
 {
 public:
 
 	virtual bool isFriendly() = 0;
+
 };
 
 

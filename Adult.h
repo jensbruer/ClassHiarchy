@@ -6,9 +6,8 @@
 #include "Person.h"
 
 class Adult:
-	Person,
-	Worker
-
+	public Person,
+	public Worker
 {
 	virtual bool isAWorker() = 0;
 	virtual bool ownerOfACompany() = 0;

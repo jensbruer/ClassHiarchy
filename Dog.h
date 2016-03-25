@@ -10,6 +10,8 @@ class Dog : Mammal {
 	}
 	virtual bool hasFur() = 0;
 	bool hasTail() { return true; }
+	std::string makenoise() { return "Woff"; }
+	std::string spieces() { return "Dog"; }
 };
 
 #endif
