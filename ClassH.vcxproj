@@ -112,6 +112,9 @@
   <ItemGroup>
     <ClInclude Include="Adult.h" />
     <ClInclude Include="Child.h" />
+    <ClInclude Include="David.h" />
+    <ClInclude Include="HandleAdult.h" />
+    <ClInclude Include="Jens.h" />
     <ClInclude Include="John.h" />
     <ClInclude Include="Worker.h" />
     <ClInclude Include="Programmer.h" />
@@ -122,6 +125,7 @@
     <ClInclude Include="Mammal.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="HandleAdult.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

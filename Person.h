@@ -10,7 +10,9 @@ class Person :
 public:
 
 	virtual bool isFriendly() = 0;
-
+	virtual std::string name() = 0;
+	virtual int age() = 0;
+	
 };
 
 
