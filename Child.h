@@ -7,6 +7,7 @@
 
 class Child : Person {
 	virtual bool likesVideoGames() = 0;
+	virtual std::string name() = 0;
 };
 
 #endif

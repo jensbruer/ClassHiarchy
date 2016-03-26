@@ -18,6 +18,9 @@
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="HandleAdult.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Human.h">
@@ -48,6 +51,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="John.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Jens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleAdult.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="David.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

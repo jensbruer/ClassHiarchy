@@ -25,6 +25,8 @@ public:
 
 	//From Person
 	bool isFriendly() { return true; }
+	std::string name() { return "John"; }
+	int age() { return 34; }
 };
 
 #endif

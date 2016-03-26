@@ -1,18 +1,17 @@
-#ifndef JENS_H
-#define JENS_H
 
+#ifndef DAVID_H
+#define DAVID_H
 
 #include "Adult.h"
-#include "Programmer.h"
 
-class Jens :
-	public Adult,
-	public Programmer
+class David :
+	public Adult
 {
 public:
 	//From Adult
 	bool isAWorker() { return true; }
 	bool ownerOfACompany() { return false; }
+	std::string gymnasium() { return "Blackeberg"; }
 
 	//From Worker
 	bool hasJob() { return true; }
@@ -20,13 +19,13 @@ public:
 	double salary() { return 35000; }
 
 	//From Programmer
-	bool knowJava() { return false; }
-	int startedProgramming() { return 23; }
+	//bool knowJava() { return false; }
+	//int startedProgramming() { return 23; }
 
 	//From Person
 	bool isFriendly() { return true; }
-	std::string name() { return "Jens"; }
-	int age() { return 34; }
+	std::string name() { return "David"; }
+	int age() { return 31; }
 };
 
 #endif

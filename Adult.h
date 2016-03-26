@@ -9,9 +9,10 @@ class Adult:
 	public Person,
 	public Worker
 {
+public:
 	virtual bool isAWorker() = 0;
 	virtual bool ownerOfACompany() = 0;
-
+	virtual std::string name() = 0;
 };
 
 #endif
