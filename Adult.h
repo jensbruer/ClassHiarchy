@@ -13,6 +13,7 @@ public:
 	virtual bool isAWorker() = 0;
 	virtual bool ownerOfACompany() = 0;
 	virtual std::string name() = 0;
+	virtual std::string gymnasium() = 0;
 };
 
 #endif

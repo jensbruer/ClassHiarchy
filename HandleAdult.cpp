@@ -17,7 +17,8 @@ void HandleAdult::printAttributes(const std::vector<Adult*>& v) const {
 		std::cout << "Name: " << x->name() << "\n";
 		std::cout << "Says: " << x->makenoise() << "\n";
 		std::cout << "Age: " << x->age() << "\n";
-		std::cout << "Is friendly?: " << is_friendly(x->isFriendly() ) << "\n\n";
-
+		std::cout << "Is friendly?: " << is_friendly(x->isFriendly() ) << "\n";
+		std::cout << "Gymnasium: " << x->gymnasium() << "\n";
+		std::cout << "\n";
 	}
 }

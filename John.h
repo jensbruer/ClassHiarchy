@@ -13,6 +13,7 @@ public:
 	//From Adult
 	bool isAWorker() { return true; }
 	bool ownerOfACompany() { return false; }
+	std::string gymnasium() { return "Granna"; }
 
 	//From Worker
 	bool hasJob() { return true; }

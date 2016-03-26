@@ -42,6 +42,7 @@ int main() {
 
 	cout << "Jens, says: " << jens.makenoise() << "\n";
 	cout << "Jens, knows java?: " << jens.knowJava() << "\n";
+	cout << "\n";
 
 	std::vector<Adult*> adults;
 
