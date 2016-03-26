@@ -11,7 +11,7 @@ std::string convert_bool_to_string(bool boolval) {
 }
 
 void HandleProgrammer::printAttributes(const std::vector<Programmer*>& v) const {
-	std::cout << v.size() << "\n";
+	
 	std::cout << "Professional information: \n";
 	for (auto x : v) {
 		std::cout << "Name: " << x->name() << "\n";
