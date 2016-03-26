@@ -11,7 +11,7 @@ std::string convert_bool_to_string(bool boolval) {
 }
 
 void HandleProgrammer::printAttributes(const std::vector<Programmer*>& v) const {
-	Programmer *a;
+	std::cout << v.size() << "\n";
 	std::cout << "Professional information: \n";
 	for (auto x : v) {
 		std::cout << "Name: " << x->name() << "\n";
@@ -19,5 +19,6 @@ void HandleProgrammer::printAttributes(const std::vector<Programmer*>& v) const 
 		std::cout << "Knows Java?: " << convert_bool_to_string(x->knowJava()) << "\n";
 		std::cout << "Years worked: " << x->manyYearsWorked() << "\n";
 		std::cout << "Salary: " << x->salary() << "\n";
+		std::cout << "\n";
 	}
 }
