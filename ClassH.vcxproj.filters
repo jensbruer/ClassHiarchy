@@ -21,6 +21,9 @@
     <ClCompile Include="HandleAdult.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="HandleProgrammer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Human.h">
@@ -60,6 +63,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="David.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleProgrammer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

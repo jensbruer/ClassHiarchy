@@ -11,8 +11,8 @@ std::string is_friendly(bool friendly) {
 }
 
 void HandleAdult::printAttributes(const std::vector<Adult*>& v) const {
-	Adult *a;
-
+	
+	std::cout << "Personal information: \n";
 	for (auto x: v) {
 		std::cout << "Name: " << x->name() << "\n";
 		std::cout << "Says: " << x->makenoise() << "\n";
