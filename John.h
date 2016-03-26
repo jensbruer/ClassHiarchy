@@ -19,6 +19,7 @@ public:
 	bool hasJob() { return true; }
 	double manyYearsWorked() { return 1.5; }
 	double salary() { return 75000; }
+	std::string worksAt() { return "MorganStanley"; }
 
 	//From Programmer
 	bool knowJava() { return true; }
