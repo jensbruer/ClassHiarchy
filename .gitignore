@@ -1,1 +1,11 @@
+# no .obj files
+
+*.obj
+
+
 *.log
+
+*.opendb
+#Ignore all the files in debug folder
+
+Debug/
